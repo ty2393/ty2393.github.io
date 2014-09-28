@@ -215,7 +215,8 @@ td {
 header {
 	background-color: #171717;
 	color: #FDFDFB;
-  width:170px;
+        background-img: url(https://raw.githubusercontent.com/ty2393/ty2393.github.io/master/images/ProductionAE.png);
+  width:auto;
   float:center;
   position:fixed;
 	border: 1px solid #000;
@@ -292,7 +293,7 @@ header li:hover {
 
 a.buttons {
 	-webkit-font-smoothing: antialiased;
-	background: url(../images/arrow-down.png) no-repeat;
+	background: url() no-repeat;
 	font-weight: normal;
 	text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
 	padding: 2px 2px 2px 22px;
