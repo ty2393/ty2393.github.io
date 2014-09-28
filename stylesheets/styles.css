@@ -159,7 +159,7 @@ td {
 /* Header */
  header {
     background-color: #171717;
-    background-image: url ('raw.githubusercontent.com/ty2393/ty2393.github.io/3086680ec3630dca6c2d2c8c24a5bd74507d01af/images/ProductionAE.png');
+    background-image: url('images/ProductionAE.png');
     color: #FDFDFB;
     width:auto;
     float:center;
@@ -169,6 +169,10 @@ td {
     border-bottom-right-radius: 4px;
     padding: 34px 25px 22px 50px;
     margin: 30px 25px 0 0;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 p.header {
     font-size: 24px;
